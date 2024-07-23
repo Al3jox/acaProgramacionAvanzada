@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <form action="registrarVehiculo.php" method="post">
+            <div class="input-group">
+                <input class="controls" type="text" name="txtPlate" id="placa" placeholder="Ingrese la placa del auto">
+            </div>
+            <div class="input-group">
+                <input class="controls" type="text" name="txtBrand" id="marca" placeholder="Ingrese la marca del auto">
+            </div>
+            <div class="input-group">
+                <input class="controls" type="number" name="txtModel" id="modelo" placeholder="Ingrese el modelo del auto">
+            </div>
+            <div class="input-group">
+                <input class="controls" type="text" name="txtColor" id="modelo" placeholder="Ingrese el color del auto">
+            </div>
+            <div class="input-group">
+                <input class="button" type="submit" value="Registrar">
+            </div>
+        </form>
+        <a href="crearDB.php"><button class="button">Crear Base de Datos</button></a>
+    </section>
+</body>
+</html>
